@@ -1,5 +1,5 @@
 variable "cluster-name" {
-  default = "remzy"
+  default = "ayootunde"
   type    = string
 }
 
@@ -14,22 +14,22 @@ variable "AWS_REGION" {
 }
 
 variable "keypair-name" {
-  default = "class"
+  default = "mydevopsclass"
   type    = string
 }
 
 variable "vpc_id" {
   type = string
-  description = "vpc-06c64054c3cd567a8"
-  default = "vpc-06c64054c3cd567a8"
+  description = "vpc-00de638cdbf80445b"
+  default = "vpc-00de638cdbf80445b"
 }
 
 variable "subnet_id" {
   description = "The ID of the subnets to use"
   type        = list(string)
   default     = [
-    "subnet-0ab3ce092683ac49d",
-    "subnet-065efd20a7d1a2878"
+    "subnet-003fdfa86772b566c",
+    "subnet-027c95f7a235d5e21"
   ]
 }
 
